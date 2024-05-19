@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poetsen+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "KoHo", sans-serif;
+    font-weight: 800;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 34px;
+    color: #007BFF;
+}
+
+.formulario {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px #0000001a;
+    border-radius: 8px;
+}
+
+.div_input {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #666;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#btt_form {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #007BFF;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: none;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#f_alert{
+    background-color: #b30000;
+    padding: 10px;
+    font-size: 20px;
+    color: #d4d4d4;
+    border-radius: 5px;
+    display: none;
+}
+
+.material-symbols-outlined{
+    display: none;
+}
